@@ -27,6 +27,7 @@ def square(t: turtle.Turtle, side, ang=0, x=0,y=0):
     
 
 t = turtle.Turtle()
+turtle.resizemode("auto")
 t.pen(fillcolor="yellow", pencolor="black", pensize=2)
 
 t.teleport(-110,0)
